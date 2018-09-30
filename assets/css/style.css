@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(73, 167, 167);
+    color: black
+}
+
+img { 
+    height: 150px;
+    width: 190px;
+    float: left;
+    box-shadow: 3px 5px rgb(145, 141, 141);
+}
+
+.btn {
+    margin: 3px;
+    background-color: rgb(22, 180, 22);
+    border-color: whitesmoke;
+    box-shadow: 3px 5px rgb(145, 141, 141);
+}
+
+.gifDiv{
+    float: left;
+    margin: 10px;
+}
+
+.container {
+	background-color: whitesmoke;
+	opacity: 0.8;
+	padding: 30px;
+}
+
+.jumbotron {
+    background-color: inherit;
+}
+
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
+}
+
+div {
+	clear: both;
+	margin-top: 40px;
+	position: center;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
+
+#showGifs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#searchBar {
+    float: right;
+}
+
+
